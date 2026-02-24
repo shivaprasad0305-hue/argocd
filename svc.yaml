@@ -5,7 +5,7 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    app: swiggy
+    app: my-app
   ports:
     - port: 8080
       targetPort: 80
